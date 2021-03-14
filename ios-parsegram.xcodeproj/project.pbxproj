@@ -20,6 +20,8 @@
 		F699F43925FDA52C00B512EB /* ios_parsegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699F43825FDA52C00B512EB /* ios_parsegramUITests.swift */; };
 		F699F45325FDA6CC00B512EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699F45225FDA6CC00B512EB /* LoginViewController.swift */; };
 		F699F45825FDA6FD00B512EB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699F45725FDA6FD00B512EB /* FeedViewController.swift */; };
+		F699F45E25FDB9FB00B512EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699F45D25FDB9FB00B512EB /* CameraViewController.swift */; };
+		F699F47E25FDC89300B512EB /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699F47D25FDC89300B512EB /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		F699F43A25FDA52C00B512EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F699F45225FDA6CC00B512EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F699F45725FDA6FD00B512EB /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F699F45D25FDB9FB00B512EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F699F47D25FDC89300B512EB /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		F907670A6B483439F8C0D3DE /* Pods-ios-parsegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-parsegram.release.xcconfig"; path = "Target Support Files/Pods-ios-parsegram/Pods-ios-parsegram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +125,7 @@
 		F699F40A25FDA52B00B512EB = {
 			isa = PBXGroup;
 			children = (
+				F699F47D25FDC89300B512EB /* PostTableViewCell.swift */,
 				F699F41525FDA52B00B512EB /* ios-parsegram */,
 				F699F42C25FDA52C00B512EB /* ios-parsegramTests */,
 				F699F43725FDA52C00B512EB /* ios-parsegramUITests */,
@@ -152,6 +157,7 @@
 				F699F41F25FDA52C00B512EB /* Assets.xcassets */,
 				F699F42125FDA52C00B512EB /* LaunchScreen.storyboard */,
 				F699F42425FDA52C00B512EB /* Info.plist */,
+				F699F45D25FDB9FB00B512EB /* CameraViewController.swift */,
 			);
 			path = "ios-parsegram";
 			sourceTree = "<group>";
@@ -412,11 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F699F47E25FDC89300B512EB /* PostTableViewCell.swift in Sources */,
 				F699F45325FDA6CC00B512EB /* LoginViewController.swift in Sources */,
 				F699F41B25FDA52B00B512EB /* ViewController.swift in Sources */,
 				F699F45825FDA6FD00B512EB /* FeedViewController.swift in Sources */,
 				F699F41725FDA52B00B512EB /* AppDelegate.swift in Sources */,
 				F699F41925FDA52B00B512EB /* SceneDelegate.swift in Sources */,
+				F699F45E25FDB9FB00B512EB /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
