@@ -36,9 +36,9 @@ class LoginViewController: UIViewController {
         let user = PFUser()
         user.username = usernameField.text
         user.password = passwordField.text
-         user.email = "email@example.com"
+        //user.email = "email@example.com"
          // other fields can be set just like with PFObject
-         user["phone"] = "415-392-0202"
+         //user["phone"] = "415-392-0202"
 
         user.signUpInBackground { (success, error) in
             if success {
